@@ -31,7 +31,12 @@ int main()
 
                         cout<<endl<<"ID (100-999): ";
                         cin>>sucursal.id;
+                           if(sucursal.id == 1000) exit(EXIT_FAILURE);
+
+
                         }while(sucursal.id < 100 || sucursal.id > 999);
+
+
 
                 cout<<endl<<"Direccion: ";
                 cin>>sucursal.direccion;
