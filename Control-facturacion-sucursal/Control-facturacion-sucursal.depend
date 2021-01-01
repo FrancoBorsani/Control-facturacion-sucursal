@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1609529591 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\sucursal.c
+	<stdio.h>
+	"Sucursal.h"
+
+1609543109 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\main.cpp
+	<iostream>
+	"sucursal.c"
+	"listaSucursales.h"
+
+1609529591 c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\sucursal.c
+	<stdio.h>
+	"Sucursal.h"
+
+1609543431 c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\sucursal.h
+
+1609529535 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.c
+	<stdio.h>
+	"Sucursal.h"
+
+1609540617 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.cpp
+	<stdio.h>
+	"Sucursal.h"
+	"listaSucursales.h"
+
+1609540610 c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.h
+
