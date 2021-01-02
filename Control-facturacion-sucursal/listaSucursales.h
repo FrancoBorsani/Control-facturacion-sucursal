@@ -11,8 +11,8 @@ struct ListaSucursales{
 
 ListaSucursales* agregarSucursal(ListaSucursales * lista, Sucursal sucursal);
 
+float totalFacturacion(ListaSucursales* lista);
 
-
-
+void totalFacturacionXZonas(ListaSucursales * inicio);
 
 #endif // LISTASUCURSALES_H_INCLUDED

@@ -3,7 +3,7 @@
 	<stdio.h>
 	"Sucursal.h"
 
-1609543947 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\main.cpp
+1609548789 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\main.cpp
 	<iostream>
 	"sucursal.c"
 	"listaSucursales.h"
@@ -18,10 +18,11 @@
 	<stdio.h>
 	"Sucursal.h"
 
-1609540617 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.cpp
+1609549777 source:c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.cpp
 	<stdio.h>
+	<iostream>
 	"Sucursal.h"
 	"listaSucursales.h"
 
-1609540610 c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.h
+1609548751 c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.h
 

@@ -20,7 +20,8 @@ int main()
     do{
         cout<<"Menu principal:"<<endl;
         cout<<"1 - Agregar sucursal"<<endl;
-
+        cout<<"2 - Total facturacion"<<endl;
+        cout<<"3 - Facturacion por zonas"<<endl;
         cout<<"Ingrese opcion: ";
         cin>>opcionIngresada;
 
@@ -76,6 +77,16 @@ int main()
 
                 listaSucursales= agregarSucursal(listaSucursales, sucursal);
                 break;
+
+                case 2:
+                   cout<<endl<<"Total facturacion: "<<totalFacturacion(listaSucursales)<<endl;
+                   break;
+
+                case 3:
+                    totalFacturacionXZonas(listaSucursales);
+                    break;
+
+
         }
 
 
