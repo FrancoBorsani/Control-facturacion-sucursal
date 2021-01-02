@@ -26,3 +26,26 @@
 
 1609548751 c:\users\medicentecno!\desktop\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.h
 
+1609609429 source:c:\users\medicentecno!\desktop\nueva carpeta (2)\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.cpp
+	<stdio.h>
+	<iostream>
+	"Sucursal.h"
+	"listaSucursales.h"
+
+1609608275 c:\users\medicentecno!\desktop\nueva carpeta (2)\control-facturacion-sucursal\control-facturacion-sucursal\sucursal.h
+
+1609608385 c:\users\medicentecno!\desktop\nueva carpeta (2)\control-facturacion-sucursal\control-facturacion-sucursal\listasucursales.h
+
+1609609345 source:c:\users\medicentecno!\desktop\nueva carpeta (2)\control-facturacion-sucursal\control-facturacion-sucursal\main.cpp
+	<iostream>
+	"sucursal.c"
+	"listaSucursales.h"
+
+1609608275 c:\users\medicentecno!\desktop\nueva carpeta (2)\control-facturacion-sucursal\control-facturacion-sucursal\sucursal.c
+	<stdio.h>
+	"Sucursal.h"
+
+1609608275 source:c:\users\medicentecno!\desktop\nueva carpeta (2)\control-facturacion-sucursal\control-facturacion-sucursal\sucursal.c
+	<stdio.h>
+	"Sucursal.h"
+

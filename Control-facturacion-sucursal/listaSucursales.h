@@ -15,4 +15,7 @@ float totalFacturacion(ListaSucursales* lista);
 
 void totalFacturacionXZonas(ListaSucursales * inicio);
 
+void maxYMin(ListaSucursales * inicio);
+
+
 #endif // LISTASUCURSALES_H_INCLUDED

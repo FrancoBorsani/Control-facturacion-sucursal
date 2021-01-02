@@ -22,6 +22,7 @@ int main()
         cout<<"1 - Agregar sucursal"<<endl;
         cout<<"2 - Total facturacion"<<endl;
         cout<<"3 - Facturacion por zonas"<<endl;
+        cout<<"4 - Facturacion maxima y minima"<<endl;
         cout<<"Ingrese opcion: ";
         cin>>opcionIngresada;
 
@@ -84,6 +85,11 @@ int main()
 
                 case 3:
                     totalFacturacionXZonas(listaSucursales);
+                    break;
+
+
+                case 4:
+                    maxYMin(listaSucursales);
                     break;
 
 
