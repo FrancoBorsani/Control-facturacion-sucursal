@@ -23,6 +23,7 @@ int main()
         cout<<"2 - Total facturacion"<<endl;
         cout<<"3 - Facturacion por zonas"<<endl;
         cout<<"4 - Facturacion maxima y minima"<<endl;
+        cout<<"5 - Mostrar sucursales"<<endl;
         cout<<"Ingrese opcion: ";
         cin>>opcionIngresada;
 
@@ -77,32 +78,46 @@ int main()
                         cin>>sucursal.facturacion;
 
                 listaSucursales= agregarSucursal(listaSucursales, sucursal);
+                system("cls");
                 break;
 
                 case 2:
                    cout<<endl<<"Total facturacion: "<<totalFacturacion(listaSucursales)<<endl;
+                   system("PAUSE");
+                   system("cls");
                    break;
 
                 case 3:
-                    totalFacturacionXZonas(listaSucursales);
+                    if(listaSucursales != nullptr){
+                    totalFacturacionXZonas(listaSucursales);}else{
+                        cout<<endl<<"No hay facturacion disponible por zonas"<<endl;
+                    }
+                    system("PAUSE");
+                   system("cls");
+
                     break;
 
 
                 case 4:
-                    maxYMin(listaSucursales);
+                    if(listaSucursales != nullptr){
+                    maxYMin(listaSucursales);}else{
+                        cout<<endl<<"No hay facturacion maxima ni minima (sin sucursales)"<<endl;
+                    }
+                    system("PAUSE");
+                   system("cls");
+
+
+
                     break;
 
 
+                case 5:
+                    system("cls");
+                    imprimir(listaSucursales);
+                    system("PAUSE");
+                    break;
+
         }
-
-
-    system("PAUSE");
-
-    imprimir(listaSucursales);
-
-
-
-
 
     }while(true);
 
@@ -114,9 +129,10 @@ int main()
 
 void imprimir(ListaSucursales *inicio){
     for (ListaSucursales* p = inicio; p!=nullptr; p=p->sgte){
-            cout<<endl<<"id: "<<p->sucursal.id<<endl;
-            cout<<endl<<"direccion: "<<p->sucursal.direccion<<endl;
-            cout<<endl<<"zona: "<<p->sucursal.zona<<endl;
-            cout<<endl<<"facturacion: "<<p->sucursal.facturacion<<endl;
+            cout<<endl<<"Id: "<<p->sucursal.id<<endl;
+            cout<<endl<<"Direccion: "<<p->sucursal.direccion<<endl;
+            cout<<endl<<"Zona: "<<p->sucursal.zona<<endl;
+            cout<<endl<<"Facturacion: "<<p->sucursal.facturacion<<endl;
+            cout<<endl<<"---------------"<<endl;
     }
 }

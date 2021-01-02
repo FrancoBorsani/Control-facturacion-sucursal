@@ -68,7 +68,7 @@ void totalFacturacionXZonas(ListaSucursales * inicio){
     }
     if(aux->sgte == nullptr && aux->sucursal.facturacion > -1 && bandera){
             unicaFacturacion = aux->sucursal.facturacion;
-            std::cout<<"Zona: "<<aux->sucursal.zona<<": "<<unicaFacturacion;
+            std::cout<<"Zona: "<<aux->sucursal.zona<<": "<<unicaFacturacion<<std::endl;
             aux->sgte = nullptr;
         }
        if(aux->sgte != nullptr && bandera){
